@@ -1,0 +1,104 @@
+Use photos of people to ask others what they know about them
+    dynamic responses based on relationship diagram/last interactions
+
+Use descriptions of people to inqure 
+    Guess Who like mechanic/minigame, offer basic facial and physical features
+        Sex
+            M/F/other
+        Height
+            short
+            tall
+            average
+        Weight
+            slim
+            average
+            heavy
+            obese
+        Clothing/Style
+            rich
+            poor
+            plain
+            fancy
+        Personality
+            shy
+            soft spoken
+            angry
+            aggresive
+            kind
+            suspicious
+            paranoid
+        Age
+            child
+            adult
+            middle aged
+            elderly
+
+All NPCs should be able to provide a response but there should be too many NPCs to brute force it wiothout following location clues or known aquantances
+
+
+Dynamic attitudes to track peoples opinions and familiarity with you
+    -Heavily encourage stealth gameplay/snooping
+    -people with strong connections (work/relationships) will sometimes share info causing spread of suspicion among groups
+    -mechanic in conversations for sharing/not sharing name
+    -mechanic for visibility/masking clothing
+        -low visibility/familiarity/opinion impacts openness (whats the trade off?)
+        -getting spotted/caught but in masking clothes reduces likely hood of recognition
+        -people remember unique clothing (clothing uniqueness system, wealthy clothing more unique but better for intereacting with wealthy people like a hitman disguse)
+        -can steal disguises that grant access like uniforms, beggar clothes
+
+-can return to home/office to add photos/notes to board, change clothes, store items, set objectives,change gear
+
+-board options (Shadows of Doubt)
+    photos
+    locations
+    object photos
+        location
+        finger prints
+            (system for partial finger prints/partial matches?)
+    people
+        fingerprints
+        descriptions
+        work place
+        gang membership
+    string connections
+    date/time frame
+
+-Full stealth path - less suspicion easier access to areas/clues
+-Full Detective path - more input from people but suspects more guarded/areas more locked down
+-intent being should be careful with who/how much you question people
+
+Dynamic suspicion/paranoia mechanic
+    getting spotted in restricted areas
+    stolen items (value/significance rating)
+
+ChatGPT for generating many variations of each needed response by providing context of the various situations an including flavoring such as nationality, class, and emotion
+
+Search storage/bodies for clues
+    matchbooks
+    notes
+    keys
+    letters
+    obejcts
+    photos/group photos
+        some photos are significant, some are of people insignificant
+
+Fingerprints system
+    check objects for finger prints
+    collect fingerprints from bodies
+
+Ability to take photos of obects
+    can avoid theft penality (suspicion)
+
+Shadow of Doubt populations 5-600
+Obra Dinn 60 characters
+
+
+
+
+early 1900s gangs
+many murders/violence
+one killing of close personal relationship
+many potential suspects/motives incl multiple hitmen
+
+
+    
