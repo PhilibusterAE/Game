@@ -1,0 +1,590 @@
+http://dwarffortresswiki.org/index.php/Token
+
+
+
+Thought <--triggers-- Activity ----trains----> Attribute
+   ^          ,----------|                         |
+modifies   modifies    trains                   increases
+   | ,--------'          |                         |
+   | v                   v                         v
+ Trait --influences--> Skill --increases--> Dwarf performance
+   |           ,---------|
+ item        item        |
+material     type    determines
+   |  ,--------'         |
+   v  v                  v
+Artifact <--chosen-- Profession
+             dwarf
+
+
+
+
+Skills
+    Professions
+    Levels 0-15+
+    Grouped by "Professional" categories
+        Miner
+            Miner
+        Woodworker
+            Bowyer
+            Carpenter
+            Wood cutter
+        Stoneworker
+            Engraver
+            Stonecutter
+            Stone carver
+            Mason
+        Ranger
+            Ambusher
+            Animal caretaker
+            Animal dissector
+            Animal trainer
+            Trapper
+        Doctor
+            Bone doctor
+            Crutch-walker
+            Diagnostician
+            Surgeon
+            Suturer
+            Wound dresser
+        Farmer
+            Beekeeper
+            Brewer
+            Butcher
+            Cheese maker
+            Cook
+            Dyer
+            Gelder
+            Planter
+            Herbalist
+            Lye maker
+            Milker
+            Miller
+            Potash maker
+            Presser
+            Shearer
+            Soaper
+            Spinner
+            Tanner
+            Thresher
+            Wood burner
+        Fishery worker
+            Fish cleaner
+            Fish dissector
+            Fisherdwarf
+        Metalsmith
+            Armorsmith
+            Furnace operator
+            Metal crafter
+            Blacksmith
+            Weaponsmith
+        Jeweler
+            Gem cutter
+            Gem setter
+        Craftsdwarf
+            Bookbinder
+            Bone carver
+            Clothier
+            Glassmaker
+            Glazer
+            Leatherworker
+            Papermaker
+            Potter
+            Stone crafter
+            Strand extractor
+            Wax worker
+            Weaver
+            Wood crafter
+        Engineer
+            Mechanic
+            Pump operator
+            Siege engineer
+            Siege operator
+        Other Jobs
+            Knapper
+        Administrator
+            Appraiser
+            Organizer
+            Record keeper
+        Military
+            Archer
+            Armor user
+            Axeman
+            Biter
+            Blowgunner
+            Bowman
+            Crossbowman
+            Dodger
+            Discipline
+            Fighter
+            Hammerman
+            Kicker
+            Knife user
+            Lasher
+            Maceman
+            Military tactics
+            Misc. object user
+            Pikeman
+            Shield user
+            Spearman
+            Striker
+            Swordsman
+            Thrower
+            Wrestler
+        Broker
+            Comedian
+            Conversationalist
+            Flatterer
+            Intimidator
+            Judge of intent
+            Liar
+            Negotiator
+            Persuader	
+        Miscellaneous 	
+            Climber
+            Concentration
+            Consoler
+            Leader
+            Observer
+            Pacifier
+            Reader
+            Rider
+            Schemer
+            Student
+            Swimmer
+            Teacher
+            Tracker
+        Performance  	
+            Dancer
+            Singer
+            Musician
+            Poet
+            Speaker
+            Keyboardist
+            Stringed instrumentalist
+            Wind instrumentalist
+            Percussionist
+        Scholar
+            Critical thinker
+            Logician
+            Mathematician
+            Astronomer
+            Chemist
+            Geographer
+            Optics engineer
+            Fluid engineer
+            Wordsmith
+            Writer
+    Skills impacted by certain status effects (can compound)
+        Nausea - reduce by 50%1
+        Winded - reduce by 50%1
+        Stunned - reduce by 50%1
+        Dizzy - reduce by 50%1
+        Fever - reduce by 50%1
+        Blind - reduce by 75%1
+        Extreme Pain - reduce by 75%12
+        Tired - reduce by 25%1
+        Over-Exert - reduce by 25% twice1
+        Exhausted - reduce by 25% three times1
+        Dehydrated - reduce by 50%
+        Starving - reduce by 50%
+        Very Drowsy - reduce by 50%
+        Thirsty for Blood - reduce by 25% or 50%, depending on severity
+
+        1 - Does not apply to dwarves who are Enraged, in a Martial Trance, or throwing a Tantrum
+        2 - Does not apply to dwarves who are in a Strange Mood or are Insane
+    Skills rust/decay when unused
+        
+Attributes (9 levels between 0 to 5000)
+    Body
+        Strength
+        Agility
+        Toughness
+        Endurance
+        Recuperation
+        Disease Resistance
+    Soul
+        Analytical Ability
+        Focus
+        Willpower
+        Creativity
+        Intuition
+        Patience
+        Memory
+        Linguistic Ability
+        Spatial Sense
+        Musicality
+        Kinesthetic Sense
+        Empathy
+        Social Awareness
+
+
+Personality Traits (http://dwarffortresswiki.org/index.php/Personality_trait)
+
+    Beliefs (7 levels between -50 to +50)
+        Law
+        Loyalty
+        Family
+        Friendship
+        Power
+        Truth
+        Cunning
+        Eloquence
+        Fairness
+        Decorum
+        Tradition
+        Artwork
+        Cooperation
+        Independence
+        Stoicism
+        Introspection
+        Self_Control
+        Tranquility
+        Harmony
+        Merriment
+        Craftsmanship
+        Martial_Prowess
+        Skill
+        Hard_Work
+        Sacrifice
+        Competition
+        Perseverance
+        Leisure_Time
+        Commerce
+        Romance
+        Nature
+        Peace
+        Knowledge
+
+    Goals (Each with unique gameplay effects)
+        Start_A_Family
+        Rule_The_World
+        Create_A_Great_Work_Of_Art
+        Craft_A_Masterpiece
+        Bring_Peace_To_The_World
+        Become_A_Legendary_Warrior
+        Master_A_Skill
+        Fall_In_Love
+        See_The_Great_Natural_Sites
+        Immortaility
+        Make_A_Great_Discovery
+        Attain_Rank_In_Society
+        Bathe_World_In_Chaos
+        Stay_Alive
+
+    Facets
+
+        |Value range|  |Values in range|  |Probability|  |Effect|
+         91-100         10 	               0.4% 	      Highest
+         76-90 	        15  	           2% 	          Very High
+         61-75 	        15 	               8.5% 	      High
+         40-60 	        21 	               78%  	      Neutral
+         25-39 	        15 	               8.5%           Low
+         10-24 	        15 	               2% 	          Very Low
+         0-9 	        10 	               0.4% 	      Lowest 
+
+        Facets influenced by species token (eg Dwarves slightly more greedy with median of 55 and Goblins are less altruistic with median of 25 and capped at 50)
+        Facets impact socail skills and are learned in social interaction and determine if certain actions may give good or bad thoughts
+            http://dwarffortresswiki.org/index.php/Thought).
+        Memories may change facets overtime
+        Facets marked with "+" also contribute to relationships where values which are significantly different (60 in one and 40 in the other) will contribute to the formation of grudges
+            http://dwarffortresswiki.org/index.php/Relationship
+            http://dwarffortresswiki.org/index.php/Grudge
+        Some facets comfilct with goals (does this mean they cannot coexist? or other impact)
+
+        Love (Conflicts with Romance belief)
+        Hate
+        Envy
+        Cheer (Conflicts with Merriment belief)
+        Depression
+        Anger
+        Anxiety
+        Lust
+        Stress
+        Greed
+        Immoderation (conflicts with Tranquilty and Martial_Prowess belief)
+        Violent (Conflicts with Perseverance belief)
+        Perseverance (Conflicts with Perseverance belief)
+        + Wastefulness
+        + Discord (Conflicts with Harmony belief)
+        + Friendliness (Conflicts with Harmony and Friendship belief)
+        + Politeness (Conflicts with Decorum belief)
+        Disdain_Advice
+        Bravery
+        Confidence
+        + Vanity
+        + Ambition
+        + Gratitude
+        + Immodesty
+        + Humor
+        + Vengeful
+        Pride
+        + Cruelty (Conflicts with Power belief)
+        Singleminded
+        + Hopeful
+        + Curious
+        Bashful
+        Privacy (Conflicts with Stoicism belief)
+        + Perfectionism
+        Closeminded
+        + Tolerant
+        Emotionally_Obsessive
+        Swayed_By_Emotions
+        + Altruism (Conflicts with Sacrifice belief)
+        + Dutifulness (Conflicts with Law, Loyalty, Independence beliefs)
+        + Thoughtlessness
+        + Orderliness
+        Trust
+        Gregariousness
+        Assertiveness
+        Activity_Level
+        + Excitement_Seeking (Conflicts with Tranquility belief)
+        + Imagination
+        + Abstract_Inclined
+        + Art_Inclined (Conflicts with Artwork and Nature beliefs)
+
+
+Needs
+    Focus
+    Diversity
+
+Memories
+    8 short-term memory slots
+    8 long-term memory slots
+    During a year a dwarf will dwell on 8 events with the strongest emotions (negative or positive) and receive additonal stress change (+/-)
+    After a year a short-term memory becomes a long-term memory if it is stronger than one of the existing long-term memories
+    Long-term memories persist forever and periodically apply a stress modifier unless they are overwritten by a stronger memory or become a core memory
+    Memories are grouped by category and only the strongest memory of each category get a slot
+
+Stress
+    Dwarves have a stress score. whenever a dwarf experiences an emotion or revisit a long-term memory a ceratin number of points is added or reemoved from the stress score
+        stresss score determines mood
+    Stress slowly returns to a neutral point overtime
+    3 personality traits determine propensity for stress
+        Bravery
+            How fast stress accumulates
+        Stress Vulnerability
+            How high the stress score must be before breaking
+        Anxiety
+            How fast stress returns to the mean
+    Some experiences have the same effect on any dwarf, some have varibale effect based on variables
+    strength of emotions varies based on personality
+
+
+List of emotions and stress modifier
+    Anything 	0
+    Acceptance 	-8
+    Adoration 	-1
+    Affection 	-2
+    Agitation 	4
+    Aggravation 	4
+    Agony 	1
+    Alarm 	4
+    Alienation 	8
+    Amazement 	0
+    Ambivalence 	0
+    Amusement 	-4
+    Anger 	2
+    Angst 	1 
+    Anguish 	1
+    Annoyance 	8
+    Anxiety 	4
+    Apathy 	0
+    Arousal 	-8
+    Astonishment 	0
+    Aversion 	4
+    Awe 	0
+    Bitterness 	2
+    Bliss 	-1
+    Boredom 	8
+    Caring 	-2
+    Confusion 	8
+    Contempt 	4
+    Contentment 	-8
+    Defeat 	2
+    Dejection 	4
+    Delight 	-1
+    Despair 	1
+    Disappointment 	8
+    Disgust 	4
+    Disillusionment 	8
+    Dislike 	8
+    Dismay 	2
+    Displeasure 	8
+    Distress 	2
+    Doubt 	8
+    Eagerness 	-4
+    Elation 	-2
+    Embarrassment 	8
+    Empathy 	-2
+    Emptiness 	4
+    Enjoyment 	-8
+    Enthusiasm 	-8
+    Euphoria 	-1
+    Exasperation 	8
+    Excitement 	-2
+    Exhilaration 	-2
+    Expectancy 	-8
+    Fear 	1
+    Ferocity 	2
+    Fondness 	-8
+    Freedom 	-4
+    Fright 	2
+    Frustration 	8
+    Gaiety 	-2
+    Glee 	-2
+    Gloom 	4
+    Glumness 	8
+    Gratitude 	-4
+    Grief 	2
+    Grim Satisfaction 	0
+    Grouchiness 	8
+    Grumpiness 	8
+    Guilt 	4
+    Happiness 	-2
+    Hatred 	2
+    Hope 	-2
+    Hopelessness 	2
+    Horror 	1
+    Humiliation 	4
+    Insult 	4
+    Interest 	-8
+    Irritation 	8
+    Isolation 	4
+    Jolliness 	-4
+    Joviality 	-2
+    Joy 	-1
+    Jubilation 	-1
+    Loathing 	2
+    Loneliness 	4
+    Love 	-1
+    Lust 	-8
+    Misery 	1
+    Mortification 	2
+    Nervousness 	8
+    Nostalgia 	-8
+    Optimism 	-4
+    Outrage 	2
+    Panic 	1
+    Patience 	-8
+    Passion 	-2
+    Pessimism 	8
+    Pleasure 	-4
+    Pride 	-4
+    Rage 	1
+    Rapture 	-1
+    Rejection 	4
+    Relief 	-2
+    Regret 	8
+    Remorse 	4
+    Repentance 	-2
+    Resentment 	8
+    Righteous Indignation 	8
+    Sadness 	4
+    Satisfaction 	-8
+    Self Pity 	8
+    Servile 	0
+    Shaken 	1
+    Shame 	4
+    Shock 	1
+    Suspicion 	8
+    Sympathy 	-8
+    Tenderness 	-2
+    Terror 	1
+    Thrill 	-2
+    Triumph 	-2
+    Uneasiness 	8
+    Unhappiness 	4
+    Vengefulness 	4
+    Wonder 	-8
+    Worry 	8
+    Wrath 	1
+    Zeal 	-4
+    Restless 	8
+    Admiration 	-8 
+
+
+Relationships
+    Types
+        Family
+            Spouse
+            Lover
+            Child
+            Parent
+            Grandparent
+            Sibling
+            Aunt/Uncle
+            Niece/Nephew
+            Cousin
+        Spiritual
+            Diety
+            Object of worship
+            Force (eg. of nature)
+        Professional
+            Apprentice
+            Master
+            Former Master
+            Former Apprentice
+        Animal
+            Pet
+            Bonded Animal
+        Personal
+            Kindred Spirit
+            Companion
+            Close Friend
+            Friend
+                Childhood
+                Scholarly
+                Artistic
+                Athletic
+                War Buddy
+            Grudge
+                Business Rivalry
+                Sport Competition
+                Abusive Ruler
+                Religious Grievances
+            Friendly Terms
+            Long-Term Aquaintance
+            PAssing Acquantance
+    
+    Relationships variables
+        Loyalty
+        Trust/distrust
+        Fear
+        Love/hate
+        Respect
+
+    Relationships/grudges form over time when drawves spend time in proximity through chat and socialize activites that occur
+        dwarves that are in adacent squares may chat if they are idle but will njot chat if they are busy with an activity like drinking eating or doing a job
+        As dwarves accumulate chats they form opinions of each other based on compatibility scores
+            similar personalities or skills lead to friendship
+            they will become aquaintences then either long-term aquaintences or friends depending on compatibility
+            grudges may form if compatibility is too low
+                only maojr differences in personality result in grudges, skills have no impact
+            Extra high compatibilty can lead to becoming lovers if they chat enough
+                can eventually lead to marriage given enough chats
+                orientation must match
+                must be adult
+                no age gap too large
+                not too closely related
+    It is possible for two dwarves to have different opiniions of each other
+        due to having their opinions determined based on seperate variables of their individual personalities and emotions
+            (would need to add system where if thereis a mismatch to have certain dynamics with that)
+    Mechanics
+        1.Relations are formed the first time a unit is idle or socializing next to another unit*
+        2.When a relationship rank hits 15, a friendship or grudge is formed, depending on compatibility.
+        3.When the rank is around 40, if the units are friends and are romantically inclined, they become lovers. A range of 31-42 has been observed, probably influenced by one or more personality facets.
+        4.When the rank hits 50, and the units are lovers, they can get married.
+        5.Talking to grudges can really spike a unit's stress level (700+ per day), depending on personality.
+        6.Socializing units can increase rank with busy adjacent units if they don't move (tested with pumpstacks, libraries, and temples).
+        
+    
+
+
+
+
+
+        
+
+
+    

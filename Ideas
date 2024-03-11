@@ -1,3 +1,11 @@
+Truth Obscura
+Veritas Obscura
+
+
+truth in shadows - verum/veritas in tenebris/umbra
+truth in obscurity - verum/veritas in obscura
+Unspoken Truth - tacitum verum/veritas
+
 Use photos of people to ask others what they know about them
     dynamic responses based on relationship diagram/last interactions
 
@@ -63,6 +71,92 @@ Dynamic attitudes to track peoples opinions and familiarity with you
     string connections
     date/time frame
 
+Relationships
+    childhood friends
+    family
+        parent
+        sibling
+        cousin
+        grandparent
+    gang members
+    communities
+    wealth class
+    coworkers
+        seniority
+
+
+
+Difficulties
+    Different ways of adjusting difficulty
+        Class
+            Upper Class
+                Rich
+                Easily purchase clothing for disguises
+                Many connections with people with access to information/willing to help
+            Middle Class
+                Anyone in upper class less liely to share information
+            Lower Class
+                Poor
+                Can't afford clothing to blend in anywhere accept slums
+                Anyone in middle and high class less likely to share information (lower trust levels)
+        Investigation Style
+            Simplified
+                Description details limited to a few variables chunked together
+                    mechanics stay the same but interaction with them is simplified
+            Complicated
+                Variability unlocked with NPC profiles and clues needing to be more manually constructed and connected
+
+
+NPCs have reltationships with one another and this influences their openess to sharing information or protecting/lying them when questioned about them.
+
+Time
+    realtime or slightly accelerated
+    day/night cycle impacts various attributes like suspicion,friendliness,etc as appropriate
+    time impacts NPCs memory or events
+        memory of detials decays overtime and memory decay influences chance of incorrect info, less accurate info (eg dark hair instead of brown/black hair or smth)
+            try looking into eye witness stats for RL examples of how inacurate their accounts can be, start with 1 to 1 stats but adjust for balance if it's too bad (probably)
+    look into how dwarf fortress handles simulating events happening extrenal to the map vs in the map
+    entire maps/all NPCs should have routines, interactions, and live updating stats/knowledge spread
+        possible limit by having multiple locations so only current map updates live while other maps can be updates less frequently and/or in bulk during loading screen/animation
+    conversations eat up time faster but in predetermined chunks based on questions asked (maybe display time when asking questions or just handle it in the background, longer queries w/ lots of details takes longer to ask)
+
+    
+
+
+loyalty stat for all relationships
+    family high loyalty but can be over ridden by gang loyalty
+
+
+some people will provide incompelte info, vague info (multiple ranges instead of single eg if age options are young, adult, old they say adult to old isntead of just old,etc), some might provide misleading info ie lies (high suspicion, high gang loyalty)
+    if lies are possible need to include system for tracking who provided info (notebook page starts with persons name)
+        notebook system where source of data is noted like "spoke with X and they said killer had black hair" or "eavesdropped on Z speaking to Y and they mentioned killer has black hair"
+            system for searching ntoes for who said what so suspected lies can be eliminated or liars can be identified
+                would a liar need to always be untruthful? would probably make them much easier to identify as liars, being a liar could be a clue in and of itself that someone has hidden intentions/affiliations
+                    motivation for lies would have to be triggered by something like high suspiocion and gang loyalty
+
+
+
+Build inqueries from board by combining details about a person into a notebook page, can use notebook to ask epople about things using the descriptions built
+    system for peoples patience, patience decreases absed on how many questions asked, time of day, location, attitutude toward MC
+    the longer queries are the higher impact they have on varies stats like patience or suspicion (indicate this in the query builder/dialogue menu) use values in code but use simplified indicator for player like green, yellow, red, or like an "annoyance" score or smth
+    NPCs have familiarity score that determines how accurately they can answer questions and maybe chance of misremembering
+    
+
+system for NPCs sharing information over time based on connections, if mob bosses/enforcers or whatever get enough information on who you are/suspicion they take action/increase security/difficulty
+    at a certain point they may "send a message" and wreck your office (give people a way to find where you live/try and follow you/spy on you?)
+        send a message event causes all notes on board to get knocked off/mixed up and a threat posted in the middle or like a horse head or something
+
+rougelike element where if the enemy gang gains too much information or you piss them off too much they start trying to kill you and if they figure out wehere you live they can ambush you at home
+    dying results in becoming new character with new loved one killed by a gang member you have to track down (eh.. don't like this but maybe something similar, need to brainstorm, could be cool)
+        if starting new character can go to old home and recover some notes to ease impact of death but many/most will be destroyed/burned
+
+Informants system. members in the gang willing to talk and help but have to be identified and contacted first
+
+overall goal:
+    Identify murderer of loved one
+    Identify structure of gang 
+
+
 -Full stealth path - less suspicion easier access to areas/clues
 -Full Detective path - more input from people but suspects more guarded/areas more locked down
 -intent being should be careful with who/how much you question people
@@ -93,12 +187,96 @@ Shadow of Doubt populations 5-600
 Obra Dinn 60 characters
 
 
+(dwarf fortress memory) when NPC is a witness to an event they will remember ony a certain number of major and minor details (8 each in DF). If questioned immediately details will be recalled mostly accurately (also impacted by other variables) but memory will decay with time with some memories getting "locked in" while others will get more vague, get confused/mixed up, or forgotten
+    maybe include system for how this recollections are managed and changed. some details should be recalled with relevance to the events and some should ust be random things they noticed. meaning important unique details may or may not be randomly noticed eg a unique accessory useful for identifgication
+    Make number of details recalled dynamic, based on attributes like intelligence, proximity to the event, time of day of the event, etc. ofc how much they share could be tied to their relationship to you
+    details should have significance values so how helpful something can be managed for the purpose of balancing/difficulty adjustments
+
+    Memories should also play a role in NPC and player interactions and result in evolving behaviors. meories should be created based on events and interactions and how likely they are to stick/influence the NPC should be influenced by various traits/memories
+    memories should build on eachother ie become exponential in their impact. mixed postiive and negative memories remain mostly neutral or unease while mainly negative memories mroe and more qucikly lead to distrust and anger
+
+    Memories shoould also influence NPC routines. being weitness to extreme events like murders or being assaulted may result in becoming violent and getting arrested or quiting their job or stop leaving their home or commit suicide or try attacking gang members or the perpetrator of the event etc
+
+
+Maybe have conversations occur in real time so if you stop and think for too long hte NPC becomes impatient or less cooperative encouraging planning and forethought
+    be generous iwth this system. mighjt not really make sense since could either be frustrating for anyone likely to have midgame distruptions if pausing is not posible during these sequences or would just encourage entering pause menu to think resulting in immersion breaking.
+        maybe could make pausing possible but notebook isn't accessible limiting utility of the strategy
+        maybe thinking during dialogoue wouldn't even be necessary
+            would need to design investigations in a way that returning to NPCs helpful when further informastion is gained prompting re-questioning
+
+https://www.mylearning.org/stories/domestic-life-in-a-19th-century-weavers-cottage/1116?
+Activities
+    Morning routine
+        smoke
+        breakfast
+        wash
+        restroom
+        sex
+    Work (variety of jobs)
+        Lunch break
+    Bar
+    Hunting
+    Fishing
+    Weekend
+        Church
+        Party
+        Baseball game
+        Circus
+        Carnival
+    Sleep
+    
 
 
 early 1900s gangs
 many murders/violence
 one killing of close personal relationship
 many potential suspects/motives incl multiple hitmen
+
+
+
+
+
+List of Systems/Mechanics
+    Relationships 
+        types
+            Family
+            Gang
+            Work
+            Community
+            Friends
+            etc
+        compatibilty scores
+    Peronality
+        sexuality
+        emotions
+    Memory
+        Eye witness account
+        NPC Interactions
+        Event Interactions
+        PC Interactions
+    Routines
+        Dynamic changes
+        passive NPC interactions
+        knowledge sharing
+    Investigation Board
+        Clues
+        Profiles
+        Descriptions
+        Maps
+    Inqueries
+        Query builder
+        cooperation dynamics
+            patience
+            openess
+            suspicion
+    World Generation
+        Start off with fixed map and NPCs
+    Stealth
+        restricted areas
+        detection
+        clue searching
+    
+    
 
 
     
