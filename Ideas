@@ -225,18 +225,24 @@ Activities
         Carnival
     Sleep
     
-
+sicilian mafia
 
 early 1900s gangs
 many murders/violence
 one killing of close personal relationship
 many potential suspects/motives incl multiple hitmen
 
+Stress modifier system from DF for forming relationships and behaviors but also implement a 'trauma' system related to memories which behave as multipliers for people witness to or victim of major crimes
 
+system for getting arestred and put in jail ofr crime. use ajil time to simulate long period of time for NPCs
+    would need mechanics for handling long-term simulation like DF world-gen/history building.
 
+skills to modify interogations, clue finding, sneaking, canvasing, eavesdropping
 
+hint system?
 
 List of Systems/Mechanics
+
     Relationships 
         types
             Family
@@ -246,9 +252,24 @@ List of Systems/Mechanics
             Friends
             etc
         compatibilty scores
+    Groups
+        Police
+        Gang(s)
+            Boss (1)
+                Consigliere?(1)
+            Underboss (1)
+            Capo(caporegime) (4?)
+            Soldiers (~10/capo)
+            Associates(~)
+        Union
+        Companies
+            Workers
+            Managers
+            Owners
     Peronality
         sexuality
         emotions
+        thoughts
     Memory
         Eye witness account
         NPC Interactions
@@ -275,7 +296,114 @@ List of Systems/Mechanics
         restricted areas
         detection
         clue searching
-    
+    Crimes
+        Protection racketeering
+        Extortion
+        Vote Buying
+        Narcotrafficing
+        Bid rigging(?)
+        Loan sharking
+        Kidnapping
+        Murder
+
+
+
+Main Character (MC)
+    Items (equipped binary)
+        tools
+        weapons
+        clothing
+        items
+        disguises
+    Notebook
+        built inqueries
+    Skills
+        Interogation
+        Canvasing(Inqueries,social/emotional intelligence)
+        Eavesdropping
+        Snooping/Sneaking
+        Breaking & Entering
+        Situational Awareness (Viewcone/identifying tails)
+        Looting (clue finding/speed)
+    Personality
+    Attributes
+        Appearance
+        Sexuality
+NPC
+    Items (equipped binary)
+        tools
+        weapons
+        clothing
+        items
+        disguises
+    Mind
+        Personality
+        Memories
+            Stress
+            Event_Recollection
+                Event_id (store only recalled details)
+                    event_datetime
+                        update recollection daily? when queried?
+                    event_role
+                    event_participants
+                    event_location
+                    event_detail_recollection_rate
+                        how likely to remember
+                            100% type of event
+                            90% perpetrator
+                            90% victim
+                            50% witnesses
+                            30% perpetrator_attributes
+                            5% witnesses_attributes
+                                influenced by relationship/familiarity
+                            etc
+                    event_recollection_decay
+                        thoughts
+                            Selects details to recollect based on probabilities
+                            reinforce detailed recalled
+                            reduce details not recalled
+                                each aspect of events requires variety of details to be recalled or forgotten
+                                event_recollection_certainty?
+            Interactions
+                interactions_time (frequency of interaction)
+                interact_chance
+                interact_type
+                personality_match
+                relationship_update
+        Emotions
+            tie into interactions, events, relationships nbot speerate entitiy
+    Attributes
+        Appearance
+            facial_featurees
+            body
+                limbs
+                digits
+        Sexuality
+        Relationships
+Evidence_Board
+    Clues
+    Photos
+    Profiles
+    Locations
+
+
+
+    Game tick process
+        what gets calcualte
+        how often
+        what triggers various events 
+
+
+
+
+
+
+
+https://www.reddit.com/r/gamedev/comments/1sgt2w/i_wrote_a_chapter_on_optimizing_games_for_data/
+
+https://dwarffortresswiki.org/index.php/DF2014:Time
+
+
     
 
 

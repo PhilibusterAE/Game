@@ -1,0 +1,137 @@
+Characters
+	Characters
+        Appearance
+            3D portrait system
+                DNA systen
+                    Facial features
+                    Skin pigmentation
+                    Height
+                    Hair color
+                    Stored as dominant and recessive genes that get passed down to children impacting appearance
+            Barbershop
+                Edit character hair and clothing
+        Sexual Orientation
+            Sexualities
+                Heterosexual (89%)
+                Homosexual (5%)
+                Bisexual (5%)
+                Asexual (1%)
+            Determines which gender they gain attraction opinion and can form lover relations
+            Determined when character is 10 years old and does not change
+            Distribution of sexualities determined by a game rule, can be adjusted
+        Opinion
+            Every character has an opinion of every other character
+            Opinions of a character influence success rate of certain actions that target another character
+            Opinions of AI characters influence their behavior towards other characters
+            When a character dies their primary heir temporarily inherits part of the opinion of vassals towards the late liege shown as 'Opinion of Predecessor
+                Positive opinion towards predecessor: 25% of opinion inherited
+                Negative opinion towards predessesor: 50% of opinion inherited
+            Attraction
+                Opinion modifier only held towards characters that match their sexual preference
+                Male characters >65 years and female characters >50 years are not affected by attraction
+            Relations
+                When conditions are met two characters can have one of three types of relations with 3 levels
+                Relations have maojr impact on how characters act towards eachother
+                    Childhood relations
+                        held by two child characters, might evolve into adulthood relations when reaching adulthood
+                    Adulthood relations
+                        gained or lost as result of events
+                    Lifelong relations
+                        Obtained towards characters with existing adulthood relation
+                        Each character can only have one lifelong relation
+                Relation
+                    Friendship
+                        Childhood (Friend)
+                            +60 Opinion
+                        Adulthood (Friend)
+                            +60 opinion
+                            +10 stress on death
+                        Lifelong (Best Friend)
+                            +120 opinion
+                            +10 stress on death
+                    Love
+                        Childhood (Crush)
+                            +60 opinion
+                        Adulthood (Lover)
+                            +60 opinion
+                            +25% fertility
+                            +10 stress on death
+                        Lifelong (Soulmate)
+                            +120 opinion
+                            +25% fertility
+                            +10 stress on death
+                    Conflict
+                        Childhood (bully/victim)
+                            -20 opinion
+                        Adulthood (Rival)
+                            -60 opinion
+                            -35 stress on death
+                        Lifelong (Nemesis)
+                            -120 opinion
+                            -35 stress on death
+            Tyranny
+                negative opinon gained by rulers who take unjust actions
+                felt by vassals and courtiers towards da liege
+                max tyranny is 1000
+                tyranny not gained if liege has a valid reason
+                Tyranny Actions
+                    Imprison a character +20
+                    Increase feudal obligations (taxes) +20
+                    Revoke title without reason +20
+                    Retract a vassal +5
+                    Banish a vassal +5
+                    Execute a vassal +10
+                    Various other events +varies
+        Legitimacy
+            Measure of a characters right to rule
+            Gained by winning wars, gaining titles, releasing valuable prisoners, creating legends, holding court, attendingactivities and winnign wars against rulers of higher rank
+            Can be lost by losing titles, exposed secerets, discovered hostile schemes, marrying lowborn characters, plagues starting in the domain, disinheriting dynasty members, losing wars (esp. cival wars)
+            When a ruler dies their heirs inherit part of the legitimacy depending on how closely related they were
+        Diplomatic range
+        Nicknames
+        AI Personality
+        Legends
+            Decision legend seeds
+            Historical legend seeds
+	Attributes
+	Traits
+	Resources
+	Interactions
+	Lifestyle
+	Dynasty
+	Culture
+	Innovations
+	Modifiers
+Realm & Governance
+	Vassals
+	Council
+	Court
+	Royal court
+	Schemes
+	Government
+	Laws
+	Decisions
+	Titles
+	Barony
+	County
+	Building
+Warfare
+	Warfare
+	Casus belli
+	Alliance
+	Army
+	Hired forces
+	Duel
+Faith
+	Religion
+	Faith
+	Doctrines
+	Tenets
+	Holy sites
+Meta
+	Modding
+	Patches
+	Downloadable content
+	Developer diaries
+	Achievements
+	Jargon
