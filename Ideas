@@ -380,11 +380,95 @@ NPC
                 digits
         Sexuality
         Relationships
+            parents + parent inlaws + exparent in laws
 Evidence_Board
     Clues
     Photos
     Profiles
     Locations
+
+
+
+Minimum viable
+    MC
+
+    NPC
+        Memories
+            Interactions
+                NPC/MC
+                    interaction type
+                        chat
+                        observed action
+                        crime (against law)
+                        crime (against gang)
+                    NPC/MC ID
+                    Location
+            Locations
+                home
+                work
+                gang
+        Relationships
+            Family
+                Parent(s)
+                Siblings
+                Children
+            Casual
+                Friends
+                Aquaintances
+            Professional
+                Coworkers
+                Boss
+            Criminal
+                Gang affiliations
+                Gang boss
+        Attributes
+            Appearance
+                Head
+                    Hair
+                        Length
+                        Color
+                    Eyes
+                    Nose
+                    Teeth
+                    Lips
+                        Size
+                        Lipstick
+                        Piercings
+                    Ears
+                        Piercings
+                        Size
+                Body
+                    Weight
+                    Shape
+            Mind
+                Observant
+                Criminality
+                Trust
+                routine-ness
+                socialability
+                temper
+            Skills
+                strength
+                agility
+                
+            Positions
+                Work
+                    owner
+                    manager
+                    worker
+                Gang
+                    Boss (1)
+                    Consigliere?(1)
+                    Underboss (1)
+                    Capo(caporegime) (4?)
+                    Soldiers (~10/capo)
+                    Associates(~)
+                Law
+                    Officer
+                    Detective
+                    Sergent
+                    Captain
+        
 
 
 
