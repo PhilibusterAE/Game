@@ -470,6 +470,11 @@ Minimum viable
                     Captain
         
 
+Don't do procedural gen in the way of dwarf fortress, create a hand crafted mystery and characters etc, but DO build system for dynamic evolution of characters and info sharing so each playthrough is unique 
+
+
+system for if characters casually share info based on chance interactions OR if they seek out to share info with certain characters
+    some info should result in routine breaking, dynamically determine if effort to share info with particular character will be done in public when convenient or shared asap illicetly
 
 
     Game tick process
@@ -489,6 +494,28 @@ Make co-op, mysteries need to be complex enough to require 2 hands
         restrict access to one area at a time, areas small enoug hthat wholel area can be live at once
 
 
+add financial records/crimes
+speakeasy
+    password to get in
+    targets for competing gang violence
+    target for police raids
+        corrupt cops can give advance warning
+
+
+
+gametypes
+    kill target
+        challenge is identifying target
+        solution not revealed if target killed without concrete connection
+            maybe don't reveal solution at all? (ending messasge of hoping yo ugot the right guy)
+                nah, needs to be some reward system, solutions should feel good
+    expose target
+        challenge is finding evidence against target
+    arrest target
+        idk, require multiple chains of evidience links?
+    Get target caught
+        reveal time target will be vulnerable to police or rival gang, maybe frame target or something 
+
 Villan mechanics
     goals
         serial killer
@@ -504,6 +531,28 @@ https://www.reddit.com/r/gamedev/comments/1sgt2w/i_wrote_a_chapter_on_optimizing
 
 https://dwarffortresswiki.org/index.php/DF2014:Time
 
+
+
+
+    Searching for hidden objects
+    Audio clue
+    Pattern recognition
+    Math
+    Mirrors
+    Riddles
+    Communication
+    Abstract logic (such as Sudoku)
+    Word puzzles (such as word search or crosswords)
+    Blacklight / Invisible ink
+    Counting
+    Symbol substitution with a key (such as looking up symbols on a chart)
+    Finding objects within images
+    Using something in an unusual way (outside-the-box thinking)
+    Assembly of a physical object (like a jigsaw puzzle)
+    Ciphers (such as letter substitution)
+    Research using information sources
+    Strategic thinking (such as chess)
+    Ropes (such as undoing knots)
 
     
 
