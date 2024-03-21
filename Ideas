@@ -523,7 +523,28 @@ Villan mechanics
     more aggresive reactions to learning about being investigated/learning or hearing of suspicipous actions
 
 
+NPCs have constant pressure values for all activities they do which vary overtime, some based on randomness, some based on a schedule, most a mix of the two
+    eg eat lunch build if its around lunch time but can be triggered early/late based on hunger which may change if they do something stressful/hard that increases hunger abnormally
 
+
+purchasing mechanics
+    earn wage from work
+    rent
+    food costs
+    recreation/other activities cost
+    transportation cost
+        can have horse stolen if needed
+        most just need to walk
+    shopping actions triggered by system of purchase pressures
+        low food triggers grocery shopping action
+        if live far from work needing horse having horse stolen triggers major horse purchase pressure
+
+events trigger when conditions are met
+    eg npc annoyance and aggresion scores are high and interact another npc insults them they get in a fight
+        some events liek this reuqire higher scores and more are mor erestricted and unlikely to happen
+    most events are menial like chats, flirting, sharing jokes
+    events hold a observabilty value to determine if people see it occur
+        when events occur check radius, line of sight, line of hearing, etc to determine if an NPC is aware of it, pair to NPCs awareness/observance score, memory score etc ot calc if if/how much they remember of the event. more likely to recall more significant events 
 
 
 
@@ -554,10 +575,6 @@ https://dwarffortresswiki.org/index.php/DF2014:Time
     Strategic thinking (such as chess)
     Ropes (such as undoing knots)
 
-
-
-testestest
-    
 
 
     
